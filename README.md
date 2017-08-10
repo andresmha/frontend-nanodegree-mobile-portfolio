@@ -4,6 +4,20 @@ Your challenge, if you wish to accept it (and we sure hope you will), is to opti
 
 To get started, check out the repository and inspect the code.
 
+Optimization:
+
+* Make Google Analytics JS Async
+
+* Refactored views/js/main.js -> resizePizzas fucntion.
+** Removed innecesary calculations.
+** Extracted general calculations from loop to be made one single time.
+
+* Reduced number of pizza elements generated from 200 to 30
+
+
+
+
+
 ### Getting started
 
 #### Part 1: Optimize PageSpeed Insights score for index.html
