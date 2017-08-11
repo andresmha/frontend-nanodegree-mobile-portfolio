@@ -6,15 +6,35 @@ To get started, check out the repository and inspect the code.
 
 Optimization:
 
-* Make Google Analytics JS Async
 
-* Refactored views/js/main.js -> resizePizzas fucntion.
-** Removed innecesary calculations.
-** Extracted general calculations from loop to be made one single time.
+index.html
+
+* Minified HTML
+
+* Made Google Analytics JS Async
+
+* Commented google fonts as it didnt represent any substantial change
+
+* Created a new Thumb version of src/views/images/pizzeria.jpg
+
+* Inlined an minified CSS
+
+* Added media type to print.css and moved it to the end of the html
+
+
+views/js/main.js
+
+* Refactored resizePizzas function.
+
+	* Removed innecesary calculations.
+
+	* Extracted general calculations from loop to be made one single time.
 
 * Reduced number of pizza elements generated from 200 to 30
 
+* Refactored updatePositions function
 
+  * Extracted calculation from loop
 
 
 
