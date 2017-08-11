@@ -22,19 +22,47 @@ index.html
 * Added media type to print.css and moved it to the end of the html
 
 
+
 views/js/main.js
 
 * Refactored resizePizzas function.
 
 	* Removed innecesary calculations.
 
-	* Extracted general calculations from loop to be made one single time.
+	* Extracted general calculations and definitions from loop to be made one single time.
+
+  * Changed querySelector to getElementById or getElementsByClassName
 
 * Reduced number of pizza elements generated from 200 to 30
 
 * Refactored updatePositions function
 
   * Extracted calculation from loop
+
+  * Changed querySelector to getElementsByClassName
+
+  * Extracted variable definition from loop
+
+* changePizzaSizes function
+
+  * Change querySelector to getElementsByClassName
+
+  * Extracted variable definition from loop to be made only once
+
+* Extracted variable definition from for loops
+
+* DOMContentLoader Event Listener
+  
+  * Extracted variable definition from loop
+
+  * Extracted and changed querySelector to getELementById from loop
+
+
+
+views/css/style.css
+
+* Added properties to "mover" class to enable GPU acceleration
+
 
 
 
